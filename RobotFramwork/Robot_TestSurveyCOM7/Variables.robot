@@ -17,6 +17,7 @@ ${LinkSurvey_Studio7}    http://s2-atv-staging.bizcuitvoc.com/?mode=generate&dep
 ${LinkSurvey_UStore}    http://s2-atv-staging.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs-atv-staging.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta3=ustore-002&Location_Meta5=staff%20-%2000001&Date_Time_Meta1=_now_&dist_method=QR
 ${LinkSurvey_iCare}    http://s2-atv-staging.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs-atv-staging.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta3=icare-002&Location_Meta5=staff%20-%2000002&Date_Time_Meta1=_now_&dist_method=QR
 ${LinkSurvey_BNN}    http://s2-atv-staging.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs-atv-staging.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta3=BNN.in.th&Location_Meta5=staff%20-%2000002&Date_Time_Meta1=_now_&dist_method=QR
+${LinkSurvey_BaNANAStoreChatShop}    https://s2-atv-staging.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs-atv-staging.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta1=BaNANA%20Store&Location_Meta3=chatandshop&Date_Time_Meta1=_now_&dist_method=QR
 #StaticLink Survey : Production
 ${LinkSurvey_BaNANAStore_Prod}    https://s2.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta3=bnn-001&Location_Meta5=staff%20-%2000002&Date_Time_Meta1=_now_&dist_method=QR
 ${LinkSurvey_BaNANAMobile_Prod}    https://s2.bizcuitvoc.com/?mode=generate&deployment_id=9d276669-456b-44a0-b68c-61c45bdb5fcd&redirect_url=http%3A%2F%2Fs.bizcuitvoc.com%2FCom7_FullLoop_POC%2F&Location_Meta3=bnm-002&Location_Meta5=staff%20-%2000001&Date_Time_Meta1=_now_&dist_method=QR
@@ -45,6 +46,18 @@ ${Check_ChoiceTrans_Meta2_6_TH}    name=Answer_3_0_0_5
 ${Check_ChoiceTrans_Meta2_7_TH}    name=Answer_3_0_0_6
 ${Check_ChoiceTrans_Meta2_8_TH}    name=Answer_3_0_0_7
 ${Check_ChoiceTrans_Meta2_9_TH}    name=Answer_3_0_0_8
+#Question_Trans_Meta2_1
+${QN_Trans_Meta2_1_TH}    วันนี้ คุณสนใจมาเลือกซื้อสินค้าอะไรบ้างคะ (ตอบได้หลายข้อ)
+#Choice Trans_Meta2_1 TH
+${Check_ChoiceTrans_Meta2_1_1_TH}    name=Answer_5_0_0_0
+${Check_ChoiceTrans_Meta2_1_2_TH}    name=Answer_5_0_0_1
+${Check_ChoiceTrans_Meta2_1_3_TH}    name=Answer_5_0_0_2
+${Check_ChoiceTrans_Meta2_1_4_TH}    name=Answer_5_0_0_3
+${Check_ChoiceTrans_Meta2_1_5_TH}    name=Answer_5_0_0_4
+${Check_ChoiceTrans_Meta2_1_6_TH}    name=Answer_5_0_0_5
+${Check_ChoiceTrans_Meta2_1_7_TH}    name=Answer_5_0_0_6
+${Check_ChoiceTrans_Meta2_1_8_TH}    name=Answer_5_0_0_7
+${Check_ChoiceTrans_Meta2_1_9_TH}    name=Answer_5_0_0_8
 #Question_Trans_Meta3
 ${QN_Trans_Meta3_TH}    วันนี้ คุณมารับบริการใดบ้างคะ    (ตอบได้หลายข้อ)
 #Choice Trans_Meta3 TH
@@ -58,6 +71,7 @@ ${Adap_Transaction_Meta1_2_TH}    ซื้อสินค้าผ่านพ�
 ${Adap_Transaction_Meta1_3_TH}    ซื้อสินค้าโดย "Chat & Shop" ผ่านทางไลน์
 ${Adap_Transaction_Meta1_4_TH}    ซื้อสินค้าผ่าน
 ${Adap_Transaction_Meta1_5_TH}    ใช้บริการที่ร้าน
+${Adap_Transaction_Meta1_6_TH}    เลือกดูสินค้า
 #Adaptive brand Text
 ${Adap_BaNANAStore_TH}    BaNANA Store
 ${Adap_BaNANAMobile_TH}    BaNANA Mobile
@@ -72,10 +86,14 @@ ${QN_CSAT_TH4}    ครั้งนี้ โดยรวมแล้วคุ�
 ${QN_OAPos_TH}    เราขอขอบคุณสำหรับความประทับใจที่มีให้เราค่ะ คุณพอจะบอกได้หรือไม่คะ ว่าอะไรบ้างที่เราทำให้คุณประทับใจ
 #OANeg_TH
 ${QN_OANeg_TH}    เรารู้สึกเสียใจในความไม่พอใจที่เราได้ก่อขึ้นในครั้งนี้ เราขอรบกวนให้ช่วยเล่าให้เราฟังด้วยค่ะว่าเกิดความผิดพลาดใดขึ้น เพื่อเราจะได้แก้ไขและพัฒนาต่อไป
+#OAreason_not_purchase_TH
+${QN_OAreason_not_purchase_TH}    เพราะเหตุใด วันนี้คุณยังไม่ตัดสินใจซื้อสินค้าคะ
 #Opt_in_contact
 ${QN_opt_in_contact_TH}    เราขออนุญาตติดต่อกลับเพื่อแก้ปัญหาในครั้งนี้ได้หรือไม่คะ
+#Opt_in_contact_6
+${QN_opt_in_contact_6_TH}    คุณยินดีให้เราติดต่อเพื่อแจ้งข้อมูลข่าวสารหรือสอบถามข้อมูลในอนาคตเพิ่มเติมหรือไม่คะ
 #Page10_ขอทราบ ชื่อ-นามสกุล และเบอร์ที่ี่สะดวกให้ติดต่อกลับ
-${QNInfo_TH}      ขอทราบ ชื่อ-นามสกุล และเบอร์ที่ี่สะดวกให้ติดต่อกลับ
+${QNInfo_TH}      ขอทราบ ชื่อ-นามสกุล และเบอร์ที่สะดวกให้เราติดต่อ
 ${QNInfo_customer_name_TH}    ชื่อ - นามสกุล
 ${QNInfo_customer_tel_TH}    เบอร์โทรศัพท์
 #Question Media

@@ -54,7 +54,8 @@ Trans_Meta1_TH
     Element Should Contain    name=Question_2_0_0    ${QN_Trans_Meta1_TH}
     Element Should Contain    name=Answer_2_0_0_0    ซื้อสินค้าที่ร้าน
     Element Should Contain    name=Answer_2_0_0_1    ซื้อสินค้าที่ร้าน โดยพนักงานกดสั่งสินค้าให้ผ่านทางเว็บไซต์
-    Element Should Contain    name=Answer_2_0_0_2    ซื้อสินค้าโดย "Chat & Shop" ผ่านทางไลน์
+    #Element Should Contain    name=Answer_2_0_0_2    ซื้อสินค้าโดย "Chat & Shop" ผ่านทางไลน์
+    Element Should Contain    name=Answer_2_0_0_5    มาเลือกดู แต่ยังไม่ได้ตัดสินใจซื้อ
 
 Trans_Meta2_TH
     [Arguments]    ${QN_Trans_Meta2_TH}
@@ -68,6 +69,19 @@ Trans_Meta2_TH
     Element Should Contain    name=Answer_3_0_0_6    สมาร์ทวอทช์และสินค้าอุปกรณ์สุขภาพ (Smartwatch and Health Gadgets)
     Element Should Contain    name=Answer_3_0_0_7    สินค้าเกี่ยวกับสมาร์ทโฮม (Smart Home Product)
     Element Should Contain    name=Answer_3_0_0_8    อื่นๆ ระบุ
+
+Trans_Meta2_1_TH
+    [Arguments]    ${QN_Trans_Meta2_1_TH}
+    Element Should Contain    //*[@compname="LayoutNodeUI_186"]    ${QN_Trans_Meta2_1_TH}
+    Element Should Contain    //*[@name="Answer_3_0_0_0"]    คอมพิวเตอร์แล็บท็อป (Laptop)
+    Element Should Contain    //*[@name="Answer_3_0_0_1"]    คอมพิวเตอร์ตั้งโต๊ะ (Desktop)
+    Element Should Contain    //*[@name="Answer_3_0_0_2"]    โทรศัพท์มือถือ (Mobile Phone)
+    Element Should Contain    //*[@name="Answer_3_0_0_3"]    แท็บเล็ต (Tablet)
+    Element Should Contain    //*[@name="Answer_3_0_0_4"]    สินค้าอุปกรณ์เสริม (Accessories)
+    Element Should Contain    //*[@name="Answer_3_0_0_5"]    สินค้าเกมมิ่ง (Gaming Gears)
+    Element Should Contain    //*[@name="Answer_3_0_0_6"]    สมาร์ทวอทช์และสินค้าอุปกรณ์สุขภาพ (Smartwatch and Health Gadgets)
+    Element Should Contain    //*[@name="Answer_3_0_0_7"]    สินค้าเกี่ยวกับสมาร์ทโฮม (Smart Home Product)
+    Element Should Contain    //*[@name="Answer_3_0_0_8"]    อื่นๆ ระบุ
 
 Trans_Meta3_TH
     [Arguments]    ${QN_Trans_Meta3_TH}
@@ -197,6 +211,46 @@ QCSAT_Transaction_Meta1_3_UStore_TH
     Element Should Contain    xpath=//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
     Element Should Contain    xpath=//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
 
+QCSAT_Transaction_Meta1_6_BaNANAStore_TH
+    [Arguments]    ${QN_CSAT_TH1}    ${Adap_Transaction_Meta1_6_TH}    ${Adap_BaNANAStore_TH}    ${QN_CSAT_TH4}
+    #CSAT_TH
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH1}
+    Element Should Contain    name=Question_5_0_0    ${Adap_Transaction_Meta1_6_TH}
+    Element Should Contain    name=Question_5_0_0    ${Adap_BaNANAStore_TH}
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH4}
+    Element Should Contain    xpath=//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
+    Element Should Contain    xpath=//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
+
+QCSAT_Transaction_Meta1_6_BaNANAMobile_TH
+    [Arguments]    ${QN_CSAT_TH1}    ${Adap_Transaction_Meta1_6_TH}    ${Adap_BaNANAMobile_TH}    ${QN_CSAT_TH4}
+    #CSAT_TH
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH1}
+    Element Should Contain    name=Question_5_0_0    ${Adap_Transaction_Meta1_6_TH}
+    Element Should Contain    name=Question_5_0_0    ${Adap_BaNANAMobile_TH}
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH4}
+    Element Should Contain    xpath=//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
+    Element Should Contain    xpath=//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
+
+QCSAT_Transaction_Meta1_6_Studio7_TH
+    [Arguments]    ${QN_CSAT_TH1}    ${Adap_Transaction_Meta1_6_TH}    ${Adap_Studio7_TH}    ${QN_CSAT_TH4}
+    #CSAT_TH
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH1}
+    Element Should Contain    name=Question_5_0_0    ${Adap_Transaction_Meta1_6_TH}
+    Element Should Contain    name=Question_5_0_0    ${Adap_Studio7_TH}
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH4}
+    Element Should Contain    xpath=//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
+    Element Should Contain    xpath=//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
+
+QCSAT_Transaction_Meta1_6_UStore_TH
+    [Arguments]    ${QN_CSAT_TH1}    ${Adap_Transaction_Meta1_6_TH}    ${Adap_UStore_TH}    ${QN_CSAT_TH4}
+    #CSAT_TH
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH1}
+    Element Should Contain    name=Question_5_0_0    ${Adap_Transaction_Meta1_6_TH}
+    Element Should Contain    name=Question_5_0_0    ${Adap_UStore_TH}
+    Element Should Contain    name=Question_5_0_0    ${QN_CSAT_TH4}
+    Element Should Contain    xpath=//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
+    Element Should Contain    xpath=//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
+
 QCSAT_BNN_TH
     [Arguments]    ${QN_CSAT_TH1}    ${Adap_Transaction_Meta1_4_TH}    ${Adap_BNN_TH}    ${QN_CSAT_TH4}
     #CSAT_TH
@@ -228,6 +282,14 @@ OA_CSATNeg_TH
     Element Should Contain    name=Question_7_0_0    ${QN_OANeg_TH}
     Page Should Contain Element    name=csat_neg
     Page Should Contain Element    xpath=//div[@name='page8']//span[@class='btn next']
+
+OA_reason_not_purchase_TH
+    [Arguments]    ${QN_OAreason_not_purchase_TH}    ${QN_opt_in_contact_6_TH}
+    Element Should Contain    name=Question_8_0_1    ${QN_OAreason_not_purchase_TH}
+    Page Should Contain Element    name=reason_not_purchase
+    Element Should Contain    name=Question_8_0_0    ${QN_opt_in_contact_6_TH}
+    Element Should Contain    name=Answer_8_0_0_0    อนุญาต
+    Element Should Contain    name=Answer_8_0_0_1    ไม่อนุญาต
 
 QN_opt_in_contact_TH
     [Arguments]    ${QN_opt_in_contact_TH}
@@ -410,9 +472,9 @@ endEnding_0_BNN_TH
 endEnding_1_BaNANAMobile_TH
     [Arguments]    ${Adap_BaNANAMobile_TH}    ${QN_endEnding_1_TH2}    ${QN_endEnding_1_TH3}    ${QN_endEnding_1_TH4}
     Element Should Contain    name=end-1    ${Adap_BaNANAMobile_TH}
-    Element Should Contain    name=end-1    ${QN_endEnding_1_TH2}
-    Element Should Contain    name=end-1    ${QN_endEnding_1_TH3}
-    Element Should Contain    name=end-1    ${QN_endEnding_1_TH4}
+    Element Should Contain    //*[@id="end-1"]    ${QN_endEnding_1_TH2}
+    Element Should Contain    //*[@id="end-1"]    ${QN_endEnding_1_TH3}
+    Element Should Contain    //*[@id="end-1"]    ${QN_endEnding_1_TH4}
 
 endEnding_2_BaNANAStore_TH
     [Arguments]    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
