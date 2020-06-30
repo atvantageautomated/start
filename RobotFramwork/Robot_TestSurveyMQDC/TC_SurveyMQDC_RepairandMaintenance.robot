@@ -7,7 +7,7 @@ Resource          Variables.robot
 TC_MQDC_RepairandMaintenance_PosTH_001
     #Transaction_Meta1 : Repair & Maintenance
     #Open Browser
-    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browser}
+    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -37,6 +37,7 @@ TC_MQDC_RepairandMaintenance_PosTH_001
     Sleep    2s
     Click Element    ${Score10}    #Click Score 10 CSAT
     #Input CSAT OA
+    Sleep    3s
     OA_CSATPos_TH    ${QN_OAPos_TH}
     Sleep    1s
     Press Key    name = csat_pos    พนักงานซ่อมได้ดีมาก ใส่ใจรายละเอียดดี
@@ -95,7 +96,7 @@ TC_MQDC_RepairandMaintenance_PosTH_001
 TC_MQDC_RepairandMaintenance_NeuTH_002
     #Transaction_Meta1 : Repair & Maintenance
     #Open Browser
-    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browser}
+    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -119,12 +120,14 @@ TC_MQDC_RepairandMaintenance_NeuTH_002
     Sleep    1s
     Click Element    ${Next_footer}
     #CSAT
+    Sleep    2s
     QCSAT_RepairandMaintenance_TH    ${QN_CSAT_TH1}    ${Adap_RepairandMaintenance_TH}    ${QN_CSAT_TH3}
     Sleep    2s
     Capture Page Screenshot    E:/Fullloop/WORK_Project/MQDC/Screen-TestRobot/TestDate_20200515/RepairandMaintenance/TC2/CSAT_Page1_TH.png
     Sleep    2s
     Click Element    ${Score8}    #Click Score 8 CSAT
     #NPS
+    Sleep    2s
     QN_NPS_TH    ${QN_NPS_TH}
     Sleep    1s
     Capture Page Screenshot    E:/Fullloop/WORK_Project/MQDC/Screen-TestRobot/TestDate_20200515/RepairandMaintenance/TC2/NPS_TH.png
@@ -179,7 +182,7 @@ TC_MQDC_RepairandMaintenance_NeuTH_002
 TC_MQDC_RepairandMaintenance_NegTH_003-ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Repair & Maintenance
     #Open Browser
-    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browser}
+    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -283,7 +286,7 @@ TC_MQDC_RepairandMaintenance_NegTH_003-ยินยอมให้ติดต�
 TC_MQDC_RepairandMaintenance_NegEN_008-ไม่ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Repair & Maintenance
     #Open Browser
-    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browser}
+    Open Browser    ${LinkSurvey_RepairandMaintenance}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page

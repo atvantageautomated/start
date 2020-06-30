@@ -6,6 +6,7 @@ ${locator_language}    xpath=//select[@id="g_language"]
 ${language_TH}    Thai
 ${language_EN}    English
 ${Browser}        firefox
+${Browserchrome}    chrome
 #Intro Main Survey
 ${Check_introMain_TH}    ขอขอบคุณ คุณลูกค้าที่ไว้วางใจให้ MQDC ได้ดูแลคุณ    กรุณาแสดงความคิดเห็นต่อประสบการณ์ที่คุณมีต่อ MQDC เพื่อนำข้อมูลไปใช้พัฒนาการให้บริการให้ดียิ่งขึ้นค่ะ
 ${Check_introMain_EN}    Thank you, Valued customer for trusting in MQDC. Please share your feedback based on your recent experience on MQDC for continuous improvement of our services.

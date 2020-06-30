@@ -7,7 +7,7 @@ Resource          Variables.robot
 TC_MQDC_VisitandBooking_PosTH_001
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -91,7 +91,7 @@ TC_MQDC_VisitandBooking_PosTH_001
 TC_MQDC_VisitandBooking_NeuTH_002
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -168,7 +168,7 @@ TC_MQDC_VisitandBooking_NeuTH_002
 TC_MQDC_VisitandBooking_NegTH_003-ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -265,7 +265,7 @@ TC_MQDC_VisitandBooking_NegTH_003-ยินยอมให้ติดต่อ
 TC_MQDC_VisitandBooking_NegTH_004-ไม่ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -354,7 +354,7 @@ TC_MQDC_VisitandBooking_NegTH_004-ไม่ยินยอมให้ติด�
 TC_MQDC_VisitandBooking_PosEN_005
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -445,7 +445,7 @@ TC_MQDC_VisitandBooking_PosEN_005
 TC_MQDC_VisitandBooking_NeuEN_006
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -527,7 +527,7 @@ TC_MQDC_VisitandBooking_NeuEN_006
 TC_MQDC_VisitandBooking_NegEN_007-ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -632,7 +632,7 @@ TC_MQDC_VisitandBooking_NegEN_007-ยินยอมให้ติดต่อ
 TC_MQDC_VisitandBooking_NegEN_008-ไม่ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Visit and BookingCust
     #Open Browser
-    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browser}
+    Open Browser    ${LinkSurvey_VisitandBooking}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page

@@ -7,7 +7,7 @@ Resource          Variables.robot
 TC_MQDC_Installment_PosTH_001
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -64,7 +64,7 @@ TC_MQDC_Installment_PosTH_001
 TC_MQDC_Installment_NeuTH_002
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -114,7 +114,7 @@ TC_MQDC_Installment_NeuTH_002
 TC_MQDC_Installment_NegTH_003-ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -187,7 +187,7 @@ TC_MQDC_Installment_NegTH_003-ยินยอมให้ติดต่อ
 TC_MQDC_Installment_NegTH_004-ไม่้ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -250,7 +250,7 @@ TC_MQDC_Installment_NegTH_004-ไม่้ยินยอมให้ติด�
 TC_MQDC_Installment_PosEN_005
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -312,7 +312,7 @@ TC_MQDC_Installment_PosEN_005
 TC_MQDC_Installment_NeuEN_006
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -367,7 +367,7 @@ TC_MQDC_Installment_NeuEN_006
 TC_MQDC_Installment_NegEN_007-ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
@@ -445,7 +445,7 @@ TC_MQDC_Installment_NegEN_007-ยินยอมให้ติดต่อ
 TC_MQDC_Installment_NegEN_008-ไม่้ยินยอมให้ติดต่อ
     #Transaction_Meta1 : Installment
     #Open Browser
-    Open Browser    ${LinkSurvey_Installment}    ${Browser}
+    Open Browser    ${LinkSurvey_Installment}    ${Browserchrome}
     Maximize Browser Window
     sleep    2s
     #Inroduction Page
