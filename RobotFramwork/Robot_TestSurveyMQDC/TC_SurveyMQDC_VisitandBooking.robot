@@ -18,7 +18,7 @@ TC_MQDC_VisitandBooking_PosTH_001
     Capture Page Screenshot    E:/Fullloop/WORK_Project/MQDC/Screen-TestRobot/TestDate_20200515/Visit and BookingCust/TC1/PageIntro_TH.png
     Click Element    ${btn_start}
     #Consent form
-    Consentform_TH    ${Check_consentform_TH}
+    #Consentform_TH    ${Check_consentform_TH}
     sleep    2s
     Capture Page Screenshot    E:/Fullloop/WORK_Project/MQDC/Screen-TestRobot/TestDate_20200515/Visit and BookingCust/TC1/Consent_Form_TH.png
     Click Element    ${Next_footer}

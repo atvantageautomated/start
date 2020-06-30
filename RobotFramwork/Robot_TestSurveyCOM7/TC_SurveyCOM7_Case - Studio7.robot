@@ -72,7 +72,7 @@ TC_POC-Com7_Studio7_PosTH_014
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
+    #endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC14/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -146,7 +146,7 @@ TC_POC-Com7_Studio7_PosTH_015
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_4_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_4_TH2}    ${QN_endEnding_4_TH2}    ${QN_endEnding_4_TH2}
+    #endEnding_4_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_4_TH2}    ${QN_endEnding_4_TH2}    ${QN_endEnding_4_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC15/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -210,7 +210,7 @@ TC_POC-Com7_Studio7_NeuTH_016
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC16/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -293,7 +293,7 @@ TC_POC-Com7_Studio7_NegTH_017
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
+    #endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC17/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -378,7 +378,7 @@ TC_POC-Com7_Studio7_NegTH_018
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
+    #endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC18/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -450,7 +450,7 @@ TC_POC-Com7_Studio7_NegTH_019
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC19/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -525,7 +525,7 @@ TC_POC-Com7_Studio7_PosTH_020_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
+    #endEnding_3_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}    ${QN_endEnding_3_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC20/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -606,7 +606,7 @@ TC_POC-Com7_Studio7_NeuTH_021_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC21/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -683,7 +683,7 @@ TC_POC-Com7_Studio7_NegTH_022_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_Studio7_TH    ${Adap_Studio7_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/Studio7/TC22/endMassage_TH.png
     Sleep    4s
     Close Browser

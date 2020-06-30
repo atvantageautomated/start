@@ -68,7 +68,7 @@ TC_POC-Com7_UStore_PosTH_001
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC01/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -132,7 +132,7 @@ TC_POC-Com7_UStore_NeuTH_002
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC02/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -215,7 +215,7 @@ TC_POC-Com7_UStore_NegTH_003
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC03/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -286,7 +286,7 @@ TC_POC-Com7_UStore_NegTH_004
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC04/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -357,7 +357,7 @@ TC_POC-Com7_UStore_PosTH_005_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC05/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -438,7 +438,7 @@ TC_POC-Com7_UStore_NeuTH_006_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC06/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -518,7 +518,7 @@ TC_POC-Com7_UStore_NegTH_007_มาเลือกดู แต่ยังไ�
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_UStore_TH    ${Adap_UStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/U-Store/TC07/endMassage_TH.png
     Sleep    4s
     Close Browser

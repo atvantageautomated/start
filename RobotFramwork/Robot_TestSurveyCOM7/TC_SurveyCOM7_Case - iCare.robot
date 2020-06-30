@@ -65,7 +65,7 @@ TC_POC-Com7_iCare_PosTH_024
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/iCare/TC24/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -123,7 +123,7 @@ TC_POC-Com7_iCare_NeuTH_025
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/iCare/TC25/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -198,7 +198,7 @@ TC_POC-Com7_iCare_NegTH_026
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/iCare/TC26/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -265,7 +265,7 @@ TC_POC-Com7_iCare_NegTH_027
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_iCare_TH    ${Adap_iCare_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/iCare/TC27/endMassage_TH.png
     Sleep    4s
     Close Browser

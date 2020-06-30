@@ -77,7 +77,7 @@ TC_MQDC_EventActivites_PosTH_001
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endMessage_TH    ${QN_endMessage_TH}
+    #endMessage_TH    ${QN_endMessage_TH}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/MQDC/Screen-TestRobot/TestDate_20200515/EventActivites/TC1/endMassage_TH.png
     Sleep    4s
     Close Browser

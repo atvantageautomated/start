@@ -62,7 +62,7 @@ TC_POC-Com7_BNN_PosTH_001
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BNN.in.th/TC01/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -116,7 +116,7 @@ TC_POC-Com7_BNN_NeuTH_002
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BNN.in.th/TC02/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -192,7 +192,7 @@ TC_POC-Com7_BNN_NegTH_003
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BNN.in.th/TC03/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -260,7 +260,7 @@ TC_POC-Com7_BNN_NegTH_004
     Click Element    ${Next_footer}
     Sleep    5s
     #endMassage
-    endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BNN_TH    ${Adap_BNN_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BNN.in.th/TC04/endMassage_TH.png
     Sleep    4s
     Close Browser

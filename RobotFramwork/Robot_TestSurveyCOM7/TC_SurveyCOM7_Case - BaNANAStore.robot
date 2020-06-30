@@ -69,7 +69,7 @@ TC_POC-Com7_BaNANAStore_PosTH_001
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC1/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -139,7 +139,7 @@ TC_POC-Com7_BaNANAStore_PosTH_002
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC2/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -209,7 +209,7 @@ TC_POC-Com7_BaNANAStore_PosTH_003
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC3/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -271,7 +271,7 @@ TC_POC-Com7_BaNANAStore_NeuTH_004
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC4/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -334,7 +334,7 @@ TC_POC-Com7_BaNANAStore_NeuTH_005
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC5/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -397,7 +397,7 @@ TC_POC-Com7_BaNANAStore_NeuTH_006
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC6/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -483,7 +483,7 @@ TC_POC-Com7_BaNANAStore_NegTH_007
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC7/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -560,7 +560,7 @@ TC_POC-Com7_BaNANAStore_NegTH_008
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC8/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -644,7 +644,7 @@ TC_POC-Com7_BaNANAStore_NegTH_009
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
+    #endEnding_0_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_0_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC9/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -724,7 +724,7 @@ TC_POC-Com7_BaNANAStore_PosTH_010_มาเลือกดู แต่ยัง
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC10/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -803,7 +803,7 @@ TC_POC-Com7_BaNANAStore_NeuTH_011_มาเลือกดู แต่ยัง
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC11/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -878,7 +878,7 @@ TC_POC-Com7_BaNANAStore_NegTH_012_มาเลือกดู แต่ยัง
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC12/endMassage_TH.png
     Sleep    4s
     Close Browser
@@ -942,7 +942,7 @@ TC_POC-Com7_BaNANAStore_PosTH_013_Chat and Shop
     Sleep    1s
     Click Element    ${Next_footer}
     #endMassage
-    endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
+    #endEnding_2_BaNANAStore_TH    ${Adap_BaNANAStore_TH}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}    ${QN_endEnding_2_TH2}
     Capture Page Screenshot    E:/Fullloop/WORK_Project/POC-Com7/Screen-TestRobot/TestDate_20200626/BaNANA Store/TC13/endMassage_TH.png
     Sleep    4s
     Close Browser
