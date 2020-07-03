@@ -348,6 +348,7 @@ Attribute12_TH
     Element Should Contain    name=Question_14_0_1    ${QN_Attri12_TH2}
     Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='ไม่พึงพอใจเลย']    ไม่พึงพอใจเลย
     Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='พึงพอใจอย่างมาก']    พึงพอใจอย่างมาก
+    Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='ข้ามการให้คะแนนหัวข้อนี้']    ข้ามการให้คะแนนหัวข้อนี้
 
 Attribute12_EN
     [Arguments]    ${QN_Attri12_EN1}    ${QN_Attri12_EN2}
@@ -355,6 +356,7 @@ Attribute12_EN
     Element Should Contain    //*[@compname="LayoutNodeUI_219"]    ${QN_Attri12_EN2}
     Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='Very Dissatisfied']    Very Dissatisfied
     Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='Very Satisfied']    Very Satisfied
+    Element Should Contain    xpath=//*[@compname="LayoutNodeUI_221"]//label[text()='Skip']    Skip
 
 Attribute13_TH
     [Arguments]    ${QN_Attri13_TH1}    ${QN_Attri13_TH2}

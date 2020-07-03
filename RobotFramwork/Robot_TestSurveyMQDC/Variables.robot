@@ -51,7 +51,7 @@ ${QN_OANeg_EN}    We are sorry to hear that you did not have a delightful servic
 ${QN_opt_in_contact_TH}    MQDC อาจติดต่อกลับเพื่อสอบถามข้อมูลเพิ่มเติม เพื่อพัฒนาผลิตภัณฑ์และบริการให้ดียิ่งขึ้น คุณยินดีให้เราติดต่อกลับหรือไม่คะ
 ${QN_opt_in_contact_EN}    In order to serve you better, would you allow us to contact you back for further information?
 #Page8_Please provide your information for contact you back.
-${QNInfo_TH}      ขอทราบ ชื่อ-นามสกุล และเบอร์ที่ี่สะดวกให้ติดต่อกลับ
+${QNInfo_TH}      ขอทราบ ชื่อ-นามสกุล และเบอร์ที่สะดวกให้ติดต่อกลับ
 ${QNInfo_EN}      Please provide your information for contact you back.
 ${QNInfo_customer_name_TH}    ชื่อ - นามสกุล
 ${QNInfo_customer_name_EN}    Name
